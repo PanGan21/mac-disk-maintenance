@@ -1,5 +1,5 @@
 # mac-disk-maintenance
-Maintain my MacOs
+Maintain my MacOs disk space
 
 #### Run
 `./maintain-mac.sh`
