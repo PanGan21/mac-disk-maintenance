@@ -14,7 +14,10 @@ for d in */; do cd $d; echo WORKING ON $d; git branch --merged master | grep -v 
 find . -name "node_modules" -type d | xargs rm -rf
 
 # Cleans npm cache
-npm cache clean --force 
+npm cache clean --force
+
+# Clean yarn cache
+yarn cache clean
 
 # Clean docker volumes
 docker volume prune
